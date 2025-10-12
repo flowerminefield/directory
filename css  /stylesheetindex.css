@@ -1,0 +1,30 @@
+body {
+  background-color: #1c1c1c;
+  font-family: Monospace;
+}
+.content {
+  color: #ffffff;
+}
+.gohome {
+  color: #f7a7a7;
+}
+.purple {
+  color: #c45194;
+}
+
+/* Styles for all screen sizes */
+.image-container {
+  text-align: center; /* Centers the image horizontally */
+}
+
+.responsive-image {
+  max-width: 80%; /* Sets a default width for desktop */
+  height: auto;  /* Maintains aspect ratio */
+}
+
+/* Styles specifically for mobile devices */
+@media (max-width: 600px) {
+  .responsive-image {
+  max-width: 100%; /* Makes the image take up the full width on small screens */
+  }
+}
